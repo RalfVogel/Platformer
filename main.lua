@@ -105,6 +105,10 @@ function love.keypressed(key)
     if key == 'r' then
         loadMap("level2")
     end
+    if key == 's' then
+        loadMap("level1")
+    end
+
 end
 
 function love.mousepressed(x, y, button)
